@@ -1,0 +1,220 @@
+
+/****************************/
+/* LOCAL CSS                */
+/****************************/
+
+/* Put your custom CSS and CSS overrides in this file and  */
+/* rename it local.css.  By restricting your CSS changes   */
+/* to local.css, your changes will not be overwritten when */
+/* upgrading to a new version of this theme.  You can also */
+/* use a local-rtl.css file for the equivalent in RTL.     */
+
+/* Steps to activate local.css:                       */
+/* 1. Add your custom CSS to this file                */
+/* 2. Rename this file to local.css                   */
+/* 3. Clear cached data at admin/settings/performance */
+
+body {
+  background: -moz-linear-gradient(#ebebeb, white); /* FF 3.6+ */  
+  background: -ms-linear-gradient(#ebebeb, white); /* IE10 */  
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ebebeb), color-stop(100%, #ffffff)); /* Safari 4+, Chrome 2+ */  
+  background: -webkit-linear-gradient(#ebebeb, white); /* Safari 5.1+, Chrome 10+ */  
+  background: -o-linear-gradient(#ebebeb, white); /* Opera 11.10 */  
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ebebeb', endColorstr='#ffffff'); /* IE6 & IE7 */  
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#ebebeb', endColorstr='#ffffff')"; /* IE8+ */  
+  background: linear-gradient(#ebebeb, white); /* the standard */
+  color: #261C02;
+  min-height: 100%;
+}
+
+#header-group-wrapper {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#main {
+  background: #FFF;
+  -moz-box-shadow: 0 0 6px 6px #d1d1d1;
+  -webkit-box-shadow: 0 0 6px 6px #d1d1d1;
+  box-shadow: 0 0 6px 6px #d1d1d1;
+  padding-top: 30px;
+  margin-bottom: 30px;
+}
+
+h1, #sidebar-first h2 {
+  font-size: 200%;
+  color: #8B0E04;
+  margin-bottom: 1em;
+}
+
+h3 {
+  font-size: 133%;
+  color: #8B0E04;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+
+h4 { margin-bottom: 0; }
+
+h3 + p,
+h4 + p {
+  margin-top: 0;
+}
+
+#content-group .gutter {
+  margin-left: 90px;
+}
+
+#preface-top .gutter {
+  margin-left: 90px;
+  margin-right: 90px;
+}
+
+.no-sidebars #content-group .gutter {
+  margin-left: 90px;
+  margin-right: 330px;
+}
+
+#sidebar-first .gutter {
+  margin-right: 90px;
+}
+
+ul.slides {
+  margin-left: 0;
+}
+
+#footer .content,
+#footer .content a {
+  color: #b2b2b2;
+}
+
+#header-group-inner {
+  position: relative;
+}
+
+#main-menu-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 620px;
+  min-width: 620px;
+  max-width: 620px;
+}
+
+#main-menu {
+  width: 620px;
+}
+
+#block-system-main-menu {
+  width: 620px;
+}
+
+#block-system-main-menu .gutter {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.region-main-menu ul li {
+  margin-right: 5px;
+  margin-top: 43px;
+}
+
+.region-main-menu ul li.last {
+  margin-right: 0;
+}
+
+.region-main-menu ul li a {
+  display: block;
+  height: 44px;
+  padding: 0;
+  background: -moz-linear-gradient(#8d0d05, #ac3027); /* FF 3.6+ */  
+  background: -ms-linear-gradient(#8d0d05, #ac3027); /* IE10 */  
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #8d0d05), color-stop(100%, #ac3027)); /* Safari 4+, Chrome 2+ */  
+  background: -webkit-linear-gradient(#8d0d05, #ac3027); /* Safari 5.1+, Chrome 10+ */  
+  background: -o-linear-gradient(#8d0d05, #ac3027); /* Opera 11.10 */  
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#8d0d05', endColorstr='#ac3027'); /* IE6 & IE7 */  
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#8d0d05', endColorstr='#ac3027')"; /* IE8+ */  
+  background: linear-gradient(#8d0d05, #ac3027); /* the standard */
+  color: #fff;
+  font-family: Oswald;
+  line-height: 44px;
+  width: 120px;
+  text-align: center;
+  font-size: 140%;
+  font-variant: small-caps;
+}
+
+.region-main-menu ul li.last a {
+  -moz-border-radius: 0 8px 8px 0;
+  -webkit-border-radius: 0 8px 8px 0;
+  border-radius: 0 8px 8px 0;
+}
+
+.region-main-menu ul li.first a {
+  -moz-border-radius: 8px 0 0 8px;
+  -webkit-border-radius: 8px 0 0 8px;
+  border-radius: 8px 0 0 8px;
+}
+
+.region-main-menu ul li a:hover,
+.region-main-menu ul li a:active,
+.region-main-menu ul li a.active {
+  background: -moz-linear-gradient(#ac3027, #8d0d05); /* FF 3.6+ */  
+  background: -ms-linear-gradient(#ac3027, #8d0d05); /* IE10 */  
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ac3027), color-stop(100%, #8d0d05)); /* Safari 4+, Chrome 2+ */  
+  background: -webkit-linear-gradient(#ac3027, #8d0d05); /* Safari 5.1+, Chrome 10+ */  
+  background: -o-linear-gradient(#ac3027, #8d0d05); /* Opera 11.10 */  
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ac3027', endColorstr='#8d0d05'); /* IE6 & IE7 */  
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#ac3027', endColorstr='#8d0d05')"; /* IE8+ */  
+  background: linear-gradient(#ac3027, #8d0d05); /* the standard */
+}
+
+.ac {
+  text-transform: uppercase;
+}
+
+em.cases {
+  font-style: normal;
+  color: #8B0E04;
+}
+
+a:link, a:visited {
+  color: #8B0E04;
+  text-decoration: underline;
+}
+
+a:hover, a:active {
+  text-decoration: underline;
+  color: #8B0E04;
+  -webkit-transition: color .25s linear;
+  transition: color .25s linear;
+}
+
+#sidebar-first a:link, #sidebar-first a:visited {
+  color: #261C02;
+  text-decoration: underline;
+}
+
+.split {
+  width: 50%;
+  float: left;
+}
+
+.subnav {
+  text-align: center;
+  font-size: 133%;
+  color: #8B0E04;
+}
+
+.subnav a:link,
+.subnav a:visited {
+  text-decoration: none;
+  color: #8B0E04;
+}
+
+.subnav a:hover,
+.subnav a:active {
+  text-decoration: underline;
+  color: #8B0E04;
+}
+
